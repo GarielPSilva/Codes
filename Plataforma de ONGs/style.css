@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: rgb(27, 27, 27)
+}
+
+header {
+    background: linear-gradient(rgb(156, 95, 253), rgb(99, 43, 241));
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    z-index: 1000;
+
+
+}
+
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: nome;
+    gap: 2rem;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: opacity 0.3s;
+    font-weight: 300;
+    opacity: 0.8s;
+}
+
+nav a:hover,
+nav a.active{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(), url();
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(80, 80, 80);
+    margin-top: 70px;
+}
+
+.destaques {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    background-position: center;
+}
+
+.card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    align-items: end;
+    padding: 10px 0;
+}
