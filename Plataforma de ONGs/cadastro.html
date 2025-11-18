@@ -62,7 +62,23 @@
                             <option value="assistência-social">Assistência Social</option>
                         </select><br><br>
                     </div>
+                    <div class="form-group">
+                        <label for="experiencia">Você já participou de ações voluntárias antes?</label>
+                        <textarea id="experiencia" name="experiencia" placeholder="Descreva sua experiência..."></textarea><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivacao">O que te motiva a ser um voluntário?</label>"
+                        <textarea id="motivacao" name="motivacao" placeholder="Compartilhe sua motivação..."></textarea><br><br>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn-primary">Enviar</button>
             </form>
+            <section class="voluntarios-lista">
+                <h2>Voluntários Cadastrados</h2>
+                <div id="voluntariosLista">
+                </div>
+                <button onclick="limparTabela()">Limpar Lista</button>
+            </section>
         </section>
     </main>
     <footer>

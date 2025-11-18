@@ -89,3 +89,10 @@ footer {
     align-items: end;
     padding: 10px 0;
 }
+
+signup-section {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
